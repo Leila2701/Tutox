@@ -1,0 +1,99 @@
+body {
+	font-family: 'Varela Round', sans-serif;
+
+}
+nav img{
+	width:30px;
+	height: 30px;
+	margin: 0;
+
+}
+.navbar .collapse ul {
+	color: #8470FF;
+}
+/*Tamaño 2 formularios importante*/
+.navbar .action-form {
+	width: 280px;
+	padding: 20px;
+	left: auto;
+	right: 0;
+	font-size: 14px;
+
+}
+/*ESTE CAMPO ES IMPORTANTE PARA EL ICONODE REDES SOCIALES*/
+.navbar .social-btn .btn, .navbar .social-btn .btn:hover {
+	color: #fff;
+	margin: 0;
+	padding: 0 !important;
+	font-size: 13px;
+	border: none;
+	transition: all 0.4s;
+	text-align: center;
+	line-height: 34px;
+	width: 47%;
+	text-decoration: none;
+}
+/*PONE COLOR A LOS BOTONES DE REDES SOCIALES*/
+.navbar .social-btn .facebook-btn {
+	background: #507cc0;
+}
+.navbar .social-btn .facebook-btn:hover {
+	background: #4676bd;
+}
+.navbar .social-btn .twitter-btn {
+	background: #64ccf1;
+}
+.navbar .social-btn .twitter-btn:hover {
+	background: #4ec7ef;
+}
+
+/*PONE EL LINEA SEPARADOR OR*/.or-seperator {
+	margin-top: 32px;
+	text-align: center;
+	border-top: 1px solid #e0e0e0;
+}
+/*ORDENA EL SEPARADOR OR CON SU LINEA*/.or-seperator b {
+	color: #666;
+	padding: 0 8px;
+	width: 30px;
+	height: 30px;
+	font-size: 13px;
+	text-align: center;
+	line-height: 26px;
+	background: #fff;
+	display: inline-block;
+	border: 1px solid #e0e0e0;
+	border-radius: 50%;
+	position: relative;
+	top: -15px;
+	z-index: 1;
+}
+.panel1{
+	background-color: #C0C0C0;
+}
+.aaa{
+	font-family: arial;
+	font-weight: bold;
+	color:#8B475D;
+}
+label{
+	color:#8B475D;
+	font-weight: bold;
+}
+.ntit{
+	text-align: center;
+	color:#8B2252;
+	font-weight: bold;
+}
+.cword{
+	color:#00008B;
+	font-weight: bold;
+}
+.cexcel{
+	color:#006400;
+	font-weight: bold;
+}
+.cpower{
+	color:#FF4500;
+	font-weight: bold;
+}
