@@ -84,7 +84,7 @@
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header" style="background-color: #AFAEAE;">
-                        <h2 style="color:#FF1493;font-weight: bold;">INSCRIPCIÓN</h2>
+                        <h3 style="color:#FF1493;font-weight: bold;">INSCRIPCIÓN</h2>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -161,34 +161,7 @@
     </div>
     </nav>
 
-      <div>
-        <img src="<?php echo base_url();?>/resources/img/alfabetizaciondigital.jpg" class="d-block w-100" alt="..." style="width: 100%">
-      </div>
-
-
-      <div class="card">
-        <h5 class="card-header">INFORMACIÓN</h5>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">MISIÓN</h5>
-                  <p class="card-text">Consiste en apoyar a los usuarios con el uso de las herramientas digitales. </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">VISIÓN</h5>
-                  <p class="card-text">Ser la aplicación web de soporte de la alfabetización digital más reconocida a nivel nacional, que ayuda a personas a mejorar sus habilidades tecnológicas.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
 
       <footer>        

@@ -99,24 +99,24 @@
                               <div class="form-group col-md-6">
                                 <label for="nombre">Nombre :</label>
                                 <input type="text" class="form-control" id="nombre"
-                                 name="nombre" title="Solo alfanumericos" placeholder="Ingresar Nombre" required>
+                                 name="nombre" title="Solo alfanumericos" placeholder="Ingresar Nombre" >
                               </div>
                               <div class="form-group col-md-6">
                                 <label for="apellidos">Apellidos :</label>
                                 <input type="text" class="form-control" id="apellidos"
-                                 name="apellidos" title="Solo alfanumericos" placeholder="Ingresar Apellidos" required>
+                                 name="apellidos" title="Solo alfanumericos" placeholder="Ingresar Apellidos" >
                               </div>
                             </div>
                             <div class="form-group">
                               <label for="correo">Correo :</label>
                               <input type="email" class="form-control" id="correo"
-                            name="correo" title="Formato correo" placeholder="Ingresar Correo" required>
+                            name="correo" title="Formato correo" placeholder="Ingresar Correo" >
                             </div>
                             <div class="form-row">
                               <div class="form-group col-md-6">
                                 <label for="fecha">Dirección :</label>
                                 <input type="text" class="form-control" id="dir"
-                               name="dir" title="Solo alfanumericos" placeholder="Ingresar Direccion" required>
+                               name="dir" title="Solo alfanumericos" placeholder="Ingresar Direccion" >
                               </div>
                               <div class="form-group col-md-6">
                                 <label for="tel">Teléfono :</label>
@@ -129,7 +129,7 @@
                               <div class="form-group col-md-6">
                                 <label for="fecha">Fecha Nacimiento :</label>
                                 <input type="date" class="form-control" id="fecha"
-                               name="fecha" title="Formato Fecha" placeholder="Ingresar Fecha Nacimiento" required>
+                               name="fecha" title="Formato Fecha" placeholder="Ingresar Fecha Nacimiento" >
                               </div>
                               <div class="form-group col-md-6">
                                 <label for="dni">DNI :</label>
@@ -336,6 +336,8 @@
 
     </div><!-- /.container -->
 
+
+      
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

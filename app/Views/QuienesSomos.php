@@ -85,7 +85,7 @@
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header" style="background-color: #AFAEAE;">
-                        <h2 style="color:#FF1493;font-weight: bold;">INSCRIPCIÓN</h2>
+                        <h3 style="color:#FF1493;font-weight: bold;">INSCRIPCIÓN</h2>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>

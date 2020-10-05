@@ -1,15 +1,16 @@
 <?php namespace App\Controllers;
 use CodeIgniter\Controller;
+use App\Models\Persona;
 class Portada extends BaseController
 {
-	public function __construct() {
-     	helper(['form', 'url']);
-       	    	            	
+  public function __construct() {
+      helper(['form', 'url']);
+                            
     }
-	public function index()
-	{
-		return view('portada');
-	}
+  public function index()
+  {
+    return view('portada');
+  }
   public function cursos()
   {
     return view('Cursos');
@@ -18,39 +19,120 @@ class Portada extends BaseController
   {
     return view('QuienesSomos');
   }
-	public function doSave()
-	{
-		$validation =  \Config\Services::validation();
-		$respuesta = array();
-        
-       /* 
-       $this->form_validation->set_message('required', '%s no debe ser vacio');	  	 
-		$this->form_validation->set_message('numeric', '%s debe ser un digito');
-		$this->form_validation->set_message('min_length', '%s no respeta en valor minimo');	
-		$this->form_validation->set_message('max_length', '%s no respeta en valor maximo');	
-		$this->form_validation->set_message('exact_length', '%s no respeta en valor exacto');	
-        */
-    
+
+    public function doList()
+  {
+      $respuesta=array(); 
+      $modelo = new Persona($db);  
+      $respuesta['data']=$modelo->mlistar();
+      header('Content-Type: application/x-json; charset=utf-8');
+        echo(json_encode($respuesta));
+}
+  
+  public function doSave()
+  {
+
+    $validation =  \Config\Services::validation();
+    $respuesta = array();
+
       $input = $this->validate([
 
-            'nombre' => 'required|min_length[5]|max_length[50]',
-            'apellidos' => 'required|min_length[5]|max_length[90]',
-            'correo' => 'required|min_length[5]|max_length[30]|valid_email',
-            'dir' => 'required|min_length[5]|max_length[50]',
-            'tel' => 'required|min_length[5]|max_length[12]',
-            'fecha' => 'required',
-            'dni' => 'required|exact_length[8]',
-            'sexo' => 'required|numeric',
+            'nombre' => [
+            'rules'  => 'required|min_length[5]|max_length[50]',
+            'errors' => [
+                'required' => 'Debe ingresar un Nombre.',
+                'min_length' => 'El Nombre o Debe ser menos de 5 carateres',
+             'max_length' => 'El Nombre no Debe ser mayor de 50 carateres'                   
+            ]
+             ]         
+            ,
+            'apellidos' => [
+            'rules'=>'required|min_length[5]|max_length[45]',
+            'errors' => [
+                'required' => 'Debe ingresar un Apellido.',
+                'min_length' => 'El Apellido No Debe ser menos de 5 carateres',
+             'max_length' => 'El Apellido no Debe ser mayor de 45  carateres'                   
+            ]
+             ]         
+            ,
+            'correo' => [
+            'rules'=>'required|min_length[5]|max_length[45]|valid_email',
+            'errors' => [
+                'required' => 'Debe ingresar un Correo Electronico.',
+                'min_length' => 'El Correo Electronico No Debe ser menos de 5 carateres',
+             'max_length' => 'El Correo Electronico No Debe ser mayor de 45  carateres',
+             'valid_email'=>'Debe ingresar un correo electronico'
+            ]
+             ]         
+            ,
+            'dir' => [
+            'rules'=>'required|min_length[5]|max_length[45]',
+            'errors' => [
+                'required' => 'Debe ingresar un Direccion.',
+                'min_length' => 'La Direccion No Debe ser menos de 5 carateres',
+             'max_length' => 'La Direccion No Debe ser mayor de 45  carateres'                   
+            ]
+             ]         
+            ,
+            'tel' => [
+            'rules'=>'required|exact_length[9]',
+             'errors' => [
+                'required' => 'Debe ingresar un telefono.',
+                'exact_length' => 'Debe ser de 9 digitos'
+            ]
+             ]           
+            ,
+
+            'fecha' => [
+            'rules'=>'required',
+               'errors' => [
+                'required' => 'Debe ingresar un Fecha Nacimiento.'
+                ]
+             ]         
+            ,
+
+            'dni' => [
+            'rules'  => 'required|exact_length[8]',
+            'errors' => [
+                'required' => 'Debe ingresar un DNI.',
+                'exact_length' => 'Debe ser de 8 digitos'
+            ]
+             ]           
+            ,
+            'sexo' => [
+            'rules'=>'required|numeric',
+               'errors' => [
+                'required' => 'Debe una seleccionar un Sexo.',
+                'numeric' => 'Debe una seleccionar un Sexo'
+            ]
+             ]           
+            ,
+
         ]);
 
        if (!$input) {
-       	$respuesta['error'] = $this->validator->listErrors() ;
-       	/*echo view('portada', [
+        $respuesta['error'] = $this->validator->listErrors() ;
+        /*echo view('portada', [
                 'validation' => $this->validator
             ]);*/
             
         } else {
-              	$respuesta['Ok'] = "Correcto";    
+           $request =  \Config\Services::request();
+            $dni= $request->getPostGet('dni') ;  
+            $nombre= $request->getPostGet('nombre') ;
+              $apel= $request->getPostGet('apellidos') ;
+              $corr= $request->getPostGet('correo') ;
+              $fec= $request->getPostGet('fecha') ;
+              $sexo= $request->getPostGet('sexo') ;
+              $dir= $request->getPostGet('dir') ;
+              $tel= $request->getPostGet('tel') ;
+              $data = array($dni,$nombre,$apel,$corr,$fec,$sexo,$dir,$tel);      
+               $modelo = new Persona($db);  
+               if($modelo->mregistrar($data)){
+                  $respuesta['ok'] = "Operacion realizada";
+              }else{
+                  $respuesta['error'] = "Problemas al realizar operacion!!";
+              }    
 
             
         }
@@ -59,11 +141,11 @@ class Portada extends BaseController
 
         
 
-		header('Content-Type: application/x-json; charset=utf-8');
+    header('Content-Type: application/x-json; charset=utf-8');
         echo(json_encode($respuesta));
 
 
-	}
-	//--------------------------------------------------------------------
+  }
+  //--------------------------------------------------------------------
 
 }
