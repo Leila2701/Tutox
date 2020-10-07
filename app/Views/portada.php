@@ -43,7 +43,7 @@
             <a class="nav-link" href="<?php echo base_url();?>/Portada/cursos">Cursos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Foros</a>
+            <a class="nav-link" href="<?php echo base_url();?>/Portada/foro">Foros</a>
           </li>
         </ul>
         <form class="form-inline mt-2 mt-md-0">

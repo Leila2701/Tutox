@@ -19,7 +19,10 @@ class Portada extends BaseController
   {
     return view('QuienesSomos');
   }
-
+  public function foro()
+  {
+    return view('foro');
+  }
     public function doList()
   {
       $respuesta=array(); 

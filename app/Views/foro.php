@@ -43,7 +43,7 @@
             <a class="nav-link" href="<?php echo base_url();?>/Portada/cursos">Cursos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Foros</a>
+            <a class="nav-link" href="<?php echo base_url();?>/Portada/foro">Foros</a>
           </li>
         </ul>
         <form class="form-inline mt-2 mt-md-0">
@@ -161,7 +161,96 @@
     </div>
     </nav>
 
+    <div class="foroBloque">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 barraPaginacion foroModulo foroMargen">
+        <a href="#">Inicio</a><!--  <i class="fa fa-chevron-circle-right paginationArrow"></i><a href="#">Categoria</a><i class="fa fa-chevron-circle-right paginationArrow"></i><a href="#">Discusion</a>-->
+      </div>  
+    </div>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--> 
+    <div id="category_1" class="row foroModulo foroMargen">
+      <a href="#" onclick="showDiscussions(1);"><!--Llamara a un archivo php -->
+        <div class="col-lg-12 columnaRelleno">
+          <div class="colocarIzquierda"> 
+            <h1>WORD </h1> 
+          </div>
+          <div class="colocarDerecha">
+            <a id="starDiscussionsButton_1" class="btn btn-primary botonTema" href="#" onclick="starDiscussions(1);">Iniciar Comentario</a>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div id=cat_new_discussions_1 class="row foroRelleno" style="display:none;"> 
+      <div class="col-lg-12">
+        <Div>
+          <a  class="btn btn-primary botonTema" href="#" >Guardar</a>
+        </Div>
+        <form>
+          <div class="form-group">
+            <label>Titulo</label>
+            <input type="text" name="newDiscussionsTitle" class="form-control "size="40">
+            <br/>
+            <label>Contenido</label>
+            <textarea class="newDiscussionText form-control" name="newDiscussionText" rows="10"></textarea>
+          </div>
+        </form>
+      </div>
+    </div>  
+
+      <div id="cat_discussions_1" class="row foroRelleno" style="display:none;"><!--esto llamara a la categoria discusion 1 oculto con javascript lo llamamos-->
+        <div class="col-lg-12">
+          <table class="foroTabla">
+            <thead>
+              <th>
+                Discucion
+              </th>
+              <th>
+                Autor
+              </th>
+              <th class="colocarDerecha">
+                Respuestas
+              </th>
+            </thead>
+
+            <tr class="foroModulo">
+              <td>
+                <a href="#">Esta es mi primi discusion</a>
+              </td>
+              <td>
+                <a href="#">Nelson</a>
+              </td>
+              <td class="colocarDerecha">
+                1
+              </td>
+            </tr>
+
+            <tr class="foroModulo">
+              <td>
+                <a href="#">Esta es mi secund discusion</a>
+              </td>
+              <td>
+                <a href="#">Nelson</a>
+              </td>
+              <td class="colocarDerecha">
+                1
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
       
+      
+      <dir class="row">
+        <div class="col-lg-12">
+          <div class="colocarDerecha" style="padding-right: 15px;">
+            <a class="label label-primary" href="#">Ver mas</a>
+          </div>
+        </div>
+      </dir>
+
+      </div>
 
 
       <footer>        
@@ -183,5 +272,6 @@
     <script src="../../../../assets/js/vendor/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="<?php echo base_url();?>/resources/javascript/foro.js" type="text/javascript"></script>
   </body>
 </html>
