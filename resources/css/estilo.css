@@ -248,3 +248,10 @@ display: inline-block;
 	color: #562e72;
 	margin-top: 5px;
 }
+/*foote¨*/
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}

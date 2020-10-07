@@ -56,10 +56,7 @@
             <a class="nav-link" href="<?php echo base_url();?>/Portada/foro">Foros</a>
           </li>
         </ul>
-        <form class="form-inline mt-2 mt-md-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-        </form>
+        
         <!-- AQUI CREO LOS LOGINS -->
         <!-- 1) INGRESA CON RED SOCIAL -->
         <div class="navbar-nav ml-auto action-buttons">
@@ -172,14 +169,14 @@
         </nav>
           <div class="container-fluid ">
 
-          <div class="card" style="background-color: #C1CDCD;">
-            <div class="card-header" style="background-color: #989797;">
-              <h2 class="text-center" style="color: #FF1493; font-weight: bold;">CURSOS BÁSICOS</h2>
+          <div class="card" style="background-color: #C1CDCD;border:0;">
+            <div class="card-header" style="background-color: #8B3A62;">
+              <h2 class="text-center" style="color: #FFFFFF; font-weight: bold;">CURSOS BÁSICOS</h2>
             </div>
             <div class="card-body">
               <div class="row">
                 <div class="col">
-                  <div class="card">
+                  <div class="card" style="background-color: #D1DADA;" >
                     <div class="card-header">
                       Word
                     </div>
@@ -194,7 +191,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card">
+                  <div class="card"  style="background-color: #D1DADA;">
                     <div class="card-header">
                       Excel
                     </div>
@@ -207,7 +204,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card">
+                  <div class="card"  style="background-color: #D1DADA;">
                     <div class="card-header">
                       PowerPoint
                     </div>
@@ -220,7 +217,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card">
+                  <div class="card"  style="background-color: #D1DADA;">
                     <div class="card-header">
                       Facebook para Negocios
                     </div>
@@ -240,14 +237,14 @@
      
         <div class="container-fluid ">
 
-          <div class="card" style="background-color: #C1CDCD;">
-            <div class="card-header" style="background-color: #989797;">
-              <h2 class="text-center" style="color: #FF1493; font-weight: bold;">CURSOS AVANZADOS</h2>
+          <div class="card" style="background-color: #C1CDCD;border:0;">
+            <div class="card-header" style="background-color: #8B3A62;">
+              <h2 class="text-center" style="color: #FFFFFF; font-weight: bold;">CURSOS AVANZADOS</h2>
             </div>
             <div class="card-body">
               <div class="row">
                 <div class="col">
-                  <div class="card">
+                  <div class="card"  style="background-color: #D1DADA;">
                     <div class="card-header">
                       Programacion con Java
                     </div>
@@ -260,7 +257,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card">
+                  <div class="card"  style="background-color: #D1DADA;">
                     <div class="card-header">
                       Diseño de BD
                     </div>
@@ -273,7 +270,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card">
+                  <div class="card"  style="background-color: #D1DADA;">
                     <div class="card-header">
                       SQL Server
                     </div>
@@ -286,7 +283,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card">
+                  <div class="card"  style="background-color: #D1DADA;">
                     <div class="card-header">
                       PHP
                     </div>
@@ -305,14 +302,14 @@
         </div>
         <div class="container-fluid ">
 
-          <div class="card" style="background-color: #C1CDCD;">
-            <div class="card-header" style="background-color: #989797;">
-              <h2 class="text-center" style="color: #FF1493; font-weight: bold;">DISEÑO GRÁFICO</h2>
+          <div class="card" style="background-color: #C1CDCD; border:0;">
+            <div class="card-header" style="background-color: #8B3A62;">
+              <h2 class="text-center" style="color: #FFFFFF; font-weight: bold;">DISEÑO GRÁFICO</h2>
             </div>
             <div class="card-body">
               <div class="row">
                 <div class="col">
-                  <div class="card">
+                  <div class="card"  style="background-color: #D1DADA;">
                     <div class="card-header">
                       Photoshop
                     </div>
@@ -325,7 +322,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card">
+                  <div class="card"  style="background-color: #D1DADA;">
                     <div class="card-header">
                       Illustrator
                     </div>
@@ -338,7 +335,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card">
+                  <div class="card"  style="background-color: #D1DADA;">
                     <div class="card-header">
                       InDesign
                     </div>
@@ -351,7 +348,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card">
+                  <div class="card"  style="background-color: #D1DADA;" >
                     <div class="card-header">
                       CorelDraw
                     </div>
@@ -370,9 +367,29 @@
         </div>
       
 
-      <footer>        
-        <p class="float-right tex"><a href="#">Back to top</a></p>
-        <p class="text-center">&copy; 2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      <footer style=" bottom: 0;
+                      left: 0;
+                      width: 100%;
+                      height: 200px;
+                      background: rgba(0, 0, 0, 0.8);
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      border-top: 2px solid #fff;">
+        
+        <div class="footer-text">
+          <div class="container grid-2" style="color:#ffffff; display: grid;grid-template-columns: 1fr 1fr;grid-gap: 10px;">
+            <div>
+              <p>Dirección: </p>
+              <p>UNIVERSIDAD CESAR VALLEJO</p>
+               <p class="telf">Telf.:653-9107 / Cel.:992828195</p>
+            </div>
+          <div class="footer-text2">
+            <p>&copy;UCV Tutox | Todos los derechos reservados.</p>
+          </div>
+          </div>
+        </div>
+
       </footer>
 
     </div><!-- /.container -->

@@ -47,10 +47,6 @@
             <a class="nav-link" href="<?php echo base_url();?>/Portada/foro">Foros</a>
           </li>
         </ul>
-        <form class="form-inline mt-2 mt-md-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-        </form>
         <!-- AQUI CREO LOS LOGINS -->
         <!-- 1) INGRESA CON RED SOCIAL -->
         <div class="navbar-nav ml-auto action-buttons">
@@ -167,12 +163,12 @@
       </div>
 
 
-      <div class="card">
-        <h5 class="card-header text-center" style="background-color: #8B3A62;font-weight: bold; color:#FFFFFF;">INFORMACIÓN</h5>
+      <div class="card" >
+        <h5 class="card-header text-center" style="background-color: #8B3A62;font-weight: bold; color:#FFFFFF">INFORMACIÓN</h5>
         <div class="card-body" style="background-color: #FFC0CB;">
           <div class="row">
             <div class="col-sm-6">
-              <div class="card" style="background-color: #FFB6C1;">
+              <div class="card" style="background-color: #FFC0CB; border:0">
                 <div class="card-body">
                   <h5 class="card-title text-center">MISIÓN</h5>
                   <p class="card-text">La aplicación web consiste en apoyar a los usuarios con el uso de las herramientas digitales para desarrollar sus actividades personales o laborales. </p>
@@ -180,7 +176,7 @@
               </div>
             </div>
             <div class="col-sm-6">
-              <div class="card"  style="background-color: #FFB6C1;">
+              <div class="card"  style="background-color: #FFC0CB; border:0">
                 <div class="card-body">
                   <h5 class="card-title text-center">VISIÓN</h5>
                   <p class="card-text">Ser desea ser la aplicación web de soporte de la alfabetización digital más reconocida a nivel nacional, que ayuda a personas a mejorar sus habilidades tecnológicas.</p>
@@ -222,12 +218,12 @@
                   <p class="overview"><b>Nelson Olarte</b>, Estudiante UCV</p>
                 </div>
                 <div class="carousel-item">
-                  <div class="img-box"><img src="/examples/images/clients/3.jpg" alt=""></div>
+                  <div class="img-box"><img src="<?php echo base_url();?>/resources/img/Sergio.jpg" alt=""></div>
                   <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
                   <p class="overview"><b>Sergio Maguiña</b>, Estudiante UCV</p>
                 </div>
                 <div class="carousel-item">
-                  <div class="img-box"><img src="/examples/images/clients/3.jpg" alt=""></div>
+                  <div class="img-box"><img src="<?php echo base_url();?>/resources/img/Ever.jpg" alt=""></div>
                   <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
                   <p class="overview"><b>Ever Melgarejo</b>, Estudiante UCV</p>
                 </div>
@@ -246,9 +242,29 @@
 
       <br></br>
 
-      <footer>        
-        <p class="float-right tex"><a href="#">Back to top</a></p>
-        <p class="text-center">&copy; 2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      <footer style=" bottom: 0;
+                      left: 0;
+                      width: 100%;
+                      height: 200px;
+                      background: rgba(0, 0, 0, 0.8);
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      border-top: 2px solid #fff;">
+        
+        <div class="footer-text">
+          <div class="container grid-2" style="color:#ffffff; display: grid;grid-template-columns: 1fr 1fr;grid-gap: 10px;">
+            <div>
+              <p>Dirección: </p>
+              <p>UNIVERSIDAD CESAR VALLEJO</p>
+               <p class="telf">Telf.:653-9107 / Cel.:992828195</p>
+            </div>
+          <div class="footer-text2">
+            <p>&copy;UCV Tutox | Todos los derechos reservados.</p>
+          </div>
+          </div>
+        </div>
+
       </footer>
 
     </div><!-- /.container -->

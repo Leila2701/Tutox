@@ -46,10 +46,6 @@
             <a class="nav-link" href="<?php echo base_url();?>/Portada/foro">Foros</a>
           </li>
         </ul>
-        <form class="form-inline mt-2 mt-md-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-        </form>
         <!-- AQUI CREO LOS LOGINS -->
         <!-- 1) INGRESA CON RED SOCIAL -->
         <div class="navbar-nav ml-auto action-buttons">
@@ -313,8 +309,9 @@
           <div class="sidebar-module">
             <h4 class="ntit">Enlaces</h4>
             <ol class="list-unstyled">
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Facebook</a></li>
+              <li><a href="#"><img src="<?php echo base_url();?>/resources/img/twiter.ico" alt=""> Twitter</a></li>
+              <li><a href="#"><img src="<?php echo base_url();?>/resources/img/facebook.ico" alt=""> Facebook</a></li>
+              <li><a href="#"><img src="<?php echo base_url();?>/resources/img/youtube.ico" alt=""> YouTube</a></li>
             </ol>
           </div>
         </div><!-- /.blog-sidebar -->
@@ -327,14 +324,32 @@
 
 
       <!-- FOOTER -->
-      <footer>
+      <footer style=" bottom: 0;
+                      left: 0;
+                      width: 100%;
+                      height: 200px;
+                      background: rgba(0, 0, 0, 0.8);
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      border-top: 2px solid #fff;">
         
-        <p class="float-right tex"><a href="#">Back to top</a></p>
-        <p class="text-center">&copy; 2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <div class="footer-text">
+          <div class="container grid-2" style="color:#ffffff; display: grid;grid-template-columns: 1fr 1fr;grid-gap: 10px;">
+            <div>
+              <p>Dirección: </p>
+              <p>UNIVERSIDAD CESAR VALLEJO</p>
+               <p class="telf">Telf.:653-9107 / Cel.:992828195</p>
+            </div>
+          <div class="footer-text2">
+            <p>&copy;UCV Tutox | Todos los derechos reservados.</p>
+          </div>
+          </div>
+        </div>
 
       </footer>
 
-    </div><!-- /.container -->
+   <!-- /.container -->
 
 
       
