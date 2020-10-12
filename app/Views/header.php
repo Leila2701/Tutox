@@ -49,12 +49,6 @@
           <li class="nav-item">
             <a class="nav-link" href="<?php echo base_url();?>/Portada/foro">Foros</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="<?php echo base_url();?>/Portada/CursoWord">Curso Word</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="<?php echo base_url();?>/Portada/Word"> Word</a>
-          </li>
         </ul>
         <!-- AQUI CREO LOS LOGINS -->
         <!-- 1) INGRESA CON RED SOCIAL -->

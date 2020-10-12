@@ -149,14 +149,7 @@
             <h4 class="ntit">Anuncio</h4>
             <p class="text-justify">Según, estudios que realizo la UNESCO hace mención que el 15% de la población global es analfabeta. Entonces, ya no estés en ese grupo del 15%, entra a nuestros cursos gratis que te ayudaran a tener conocimientos de la época, al igual, que puedes conseguir trabajo con la educación básica que se te brinda esta aplicación web y así poder aportar a la sociedad. ¡No lo pienses más y atrévete a ver nuestros videos!</p>
           </div>
-          <div class="sidebar-module">
-            <h4 class="ntit">Enlaces</h4>
-            <ol class="list-unstyled">
-              <li><a href="#"><img src="<?php echo base_url();?>/resources/img/twiter.ico" alt=""> Twitter</a></li>
-              <li><a href="#"><img src="<?php echo base_url();?>/resources/img/facebook.ico" alt=""> Facebook</a></li>
-              <li><a href="#"><img src="<?php echo base_url();?>/resources/img/youtube.ico" alt=""> YouTube</a></li>
-            </ol>
-          </div>
+          
         </div><!-- /.blog-sidebar -->
 
       </div><!-- /.row -->
@@ -164,29 +157,6 @@
     </div><!-- /.container -->
 
 
-    <div class="social" style="width: 20px;
-                              text-align: center;
-                              font-size: 24px;
-                              position: fixed;
-                              left: -40px; 
-                              top: 250px;">
-    <ul style="list-style: none;">
-      <li> <a href="https://m.me/Puritocodigo" target="_blank" class="fab fa-facebook-messenger" style="display: inline-block;
-                                                        text-decoration: none;
-                                                        color: #fff;
-                                                        padding: 10px 15px;
-                                                        z-index: 0;
-                                                        transition: 0.1s ease;
-                                                        background: #0084ff;"></a></li>
-      <li> <a href="https://api.whatsapp.com/send?phone=51992820062&text=Hola%20necesito%20información" target="_blank" class="fab fa-whatsapp" style="display: inline-block;
-                                                        text-decoration: none;
-                                                        color: #fff;
-                                                        padding: 10px 15px;
-                                                        z-index: 0;
-                                                        transition: 0.1s ease;
-                                                        background: #25d366;"></a></li>
     
-      </ul>
-    </div>
 
       

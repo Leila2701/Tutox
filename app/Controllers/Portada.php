@@ -27,10 +27,6 @@ class Portada extends BaseController
   {
     return view('header').view('CursoWord').view('footer');
   }
-  public function Word()
-  {
-    return view('header').view('Word').view('footer');
-  }
     public function doList()
   {
       $respuesta=array(); 

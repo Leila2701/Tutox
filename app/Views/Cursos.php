@@ -29,7 +29,7 @@
                       
                     </div>
                     <div class="card-footer">
-                      <a class="btn btn-info btn-block" target="_blank" href="https://www.youtube.com/playlist?list=PLLniqWgyb4HER2iysxcQZiE-TBITT1AAg">Ir al curso</a>
+                      <a class="btn btn-info btn-block"  href="<?php echo base_url();?>/Portada/CursoWord">Ir al curso</a>
                     </div>
                   </div>
                 </div>

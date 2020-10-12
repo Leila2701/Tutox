@@ -25,9 +25,8 @@
         <div class="social" style="width: 20px;
                               text-align: center;
                               font-size: 24px;
-                              position: fixed;
                               left: -40px; 
-                              top: 250px;">
+                              top: 480px;">
     <ul style="list-style: none;">
       <li> <a href="https://m.me/Puritocodigo" target="_blank" class="fab fa-facebook-messenger" style="display: inline-block;
                                                         text-decoration: none;
