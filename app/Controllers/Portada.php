@@ -9,19 +9,27 @@ class Portada extends BaseController
     }
   public function index()
   {
-    return view('portada');
+    return view('header').view('portada').view('footer');
   }
   public function cursos()
   {
-    return view('Cursos');
+    return view('header').view('Cursos').view('footer');
   }
   public function somos()
   {
-    return view('QuienesSomos');
+    return view('header').view('QuienesSomos').view('footer');
   }
   public function foro()
   {
-    return view('foro');
+    return view('header').view('foro').view('footer');
+  }
+  public function CursoWord()
+  {
+    return view('header').view('CursoWord').view('footer');
+  }
+  public function Word()
+  {
+    return view('header').view('Word').view('footer');
   }
     public function doList()
   {
