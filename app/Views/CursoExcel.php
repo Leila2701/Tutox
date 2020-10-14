@@ -1,7 +1,7 @@
 <br>
 
 <div>
-<h3 class="text-center">WORD</h3>
+<h3 class="text-center">EXCEL</h3>
 </div>
 <table class="table table-hover table-dark">
   <thead>
@@ -24,7 +24,7 @@
             </div>
             <div class="modal-body">                    
                     <div class="embed-responsive embed-responsive-21by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pbvwCTld8BA" id="iframeVideo"></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yKWFMgurUnU" id="iframeVideo"></iframe>
                     </div>
             </div>
             <div class="modal-footer">
@@ -34,21 +34,21 @@
         </div>
       <th scope="row">0</th>
       <td>Introducción para principiantes</td>
-      <td>10:39</td>
+      <td>12:22</td>
     </tr>
     <tr data-toggle="modal" data-target="#exampleModal2">
       <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Carta Sencilla (Formal)</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Formulas y Autorellenos</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">                    
                     <div class="embed-responsive embed-responsive-21by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EdoQhbRWCbo" id="iframeVideo"></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/47nJsZ97sz0" id="iframeVideo"></iframe>
                     </div>
             </div>
             <div class="modal-footer">
@@ -57,22 +57,22 @@
           </div>
         </div>
       <th scope="row">1</th>
-      <td>Carta Sencilla (Formal)</td>
-      <td>15:10</td>
+      <td>Formulas y Autorellenos</td>
+      <td>16:23</td>
     </tr>
     <tr data-toggle="modal" data-target="#exampleModal3">
       <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Viñetas, sangrías y tabulación de datos</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Gráficos</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">                    
                     <div class="embed-responsive embed-responsive-21by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_WyWbh5wQDo" id="iframeVideo"></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BER2KhixV0Y" id="iframeVideo"></iframe>
                     </div>
             </div>
             <div class="modal-footer">
@@ -81,22 +81,22 @@
           </div>
         </div>
       <th scope="row">2</th>
-      <td>Viñetas, sangrías y tabulación de datos</td>
-      <td>12:39</td>
+      <td>Gráficos</td>
+      <td>12:20</td>
     </tr>
     <tr data-toggle="modal" data-target="#exampleModal4">
       <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Insertar imágenes</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Función SI</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">                    
                     <div class="embed-responsive embed-responsive-21by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/furLE2g8jZc" id="iframeVideo"></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GafEekpQu1M" id="iframeVideo"></iframe>
                     </div>
             </div>
             <div class="modal-footer">
@@ -105,22 +105,22 @@
           </div>
         </div>
       <th scope="row">3</th>
-      <td>Insertar imágenes</td>
-      <td>12:10</td>
+      <td>Función SI</td>
+      <td>12:34</td>
     </tr>
     <tr data-toggle="modal" data-target="#exampleModal5">
       <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Insertar columnas</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Función SI - Anidada</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">                    
                     <div class="embed-responsive embed-responsive-21by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DB1CzpT4Qtg" id="iframeVideo"></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/78kuqNn2fzM" id="iframeVideo"></iframe>
                     </div>
             </div>
             <div class="modal-footer">
@@ -129,22 +129,22 @@
           </div>
         </div>
       <th scope="row">4</th>
-      <td>Insertar columnas</td>
-      <td>07:25</td>
+      <td>Función SI - Anidada</td>
+      <td>06:31</td>
     </tr>
     <tr data-toggle="modal" data-target="#exampleModal6">
       <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Tablas y sus estilos</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Función SI - Y - O</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">                    
                     <div class="embed-responsive embed-responsive-21by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Qngv4AOAjS0" id="iframeVideo"></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_Sl2QmSmvuk" id="iframeVideo"></iframe>
                     </div>
             </div>
             <div class="modal-footer">
@@ -153,22 +153,22 @@
           </div>
         </div>
       <th scope="row">5</th>
-      <td>Tablas y sus estilos</td>
-      <td>11:32</td>
+      <td>Función SI - Y - O</td>
+      <td>07:38</td>
     </tr>
     <tr data-toggle="modal" data-target="#exampleModal7">
       <div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Cuadros de textos y WordArt</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Función SI (Y-O) ANIDADA</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">                    
                     <div class="embed-responsive embed-responsive-21by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VPyAxNgCF3Y" id="iframeVideo"></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pu2N8hbY7O4" id="iframeVideo"></iframe>
                     </div>
             </div>
             <div class="modal-footer">
@@ -177,22 +177,22 @@
           </div>
         </div>
       <th scope="row">6</th>
-      <td>Cuadros de textos y WordArt</td>
-      <td>08:04</td>
+      <td>Función SI (Y-O) ANIDADA</td>
+      <td>11:36</td>
     </tr>
     <tr data-toggle="modal" data-target="#exampleModal8">
       <div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Combinar correspondencia</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Funciones Básicas</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">                    
                     <div class="embed-responsive embed-responsive-21by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/B1vfwuQdqGo" id="iframeVideo"></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lWS9fMw1KWQ" id="iframeVideo"></iframe>
                     </div>
             </div>
             <div class="modal-footer">
@@ -201,22 +201,22 @@
           </div>
         </div>
       <th scope="row">7</th>
-      <td>Combinar correspondencia</td>
-      <td>20:02</td>
+      <td>Funciones Básicas</td>
+      <td>11:40</td>
     </tr>
     <tr data-toggle="modal" data-target="#exampleModal9">
        <div class="modal fade" id="exampleModal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Enumerar pagina en "pie de página"</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Función BuscarV (Llamado de Datos)</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">                    
                     <div class="embed-responsive embed-responsive-21by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2wNnB3SndW0" id="iframeVideo"></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/09d5OQ9yDXw" id="iframeVideo"></iframe>
                     </div>
             </div>
             <div class="modal-footer">
@@ -225,22 +225,22 @@
           </div>
         </div>
       <th scope="row">8</th>
-      <td>Enumerar paginas en "pie de página"</td>
-      <td>06:50</td>
+      <td>Función BuscarV (Llamado de Datos)</td>
+      <td>14:28</td>
     </tr>
     <tr data-toggle="modal" data-target="#exampleModal10">
       <div class="modal fade" id="exampleModal10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Tablas de contenidos</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Formato Condicional</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">                    
                     <div class="embed-responsive embed-responsive-21by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/g6zaadbD-0M" id="iframeVideo"></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_2Mg5vBSM4U" id="iframeVideo"></iframe>
                     </div>
             </div>
             <div class="modal-footer">
@@ -249,22 +249,22 @@
           </div>
         </div>
       <th scope="row">9</th>
-      <td>Tablas de contenidos</td>
-      <td>06:29</td>
+      <td>Formato Condicional</td>
+      <td>08:50</td>
     </tr>
     <tr data-toggle="modal" data-target="#exampleModal11">
       <div class="modal fade" id="exampleModal11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Función Rand y Lorem Ipsum</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Validación de Datos</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">                    
                     <div class="embed-responsive embed-responsive-21by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vsDopFpEYPI" id="iframeVideo"></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/I0kYLaPNgRo" id="iframeVideo"></iframe>
                     </div>
             </div>
             <div class="modal-footer">
@@ -273,22 +273,22 @@
           </div>
         </div>
       <th scope="row">10</th>
-      <td>Función Rand y Lorem Ipsum</td>
-      <td>03:15</td>
+      <td>Validación de Datos</td>
+      <td>13:05</td>
     </tr>
     <tr data-toggle="modal" data-target="#exampleModal12">
       <div class="modal fade" id="exampleModal12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Mapas Conceptuales (SmartArt)</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Filtros y Tablas dinámicas</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">                    
                     <div class="embed-responsive embed-responsive-21by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ff2OebYLm00" id="iframeVideo"></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AIipB0FFw7Y" id="iframeVideo"></iframe>
                     </div>
             </div>
             <div class="modal-footer">
@@ -297,22 +297,22 @@
           </div>
         </div>
       <th scope="row">11</th>
-      <td>Mapas conceptuales (SmartArt)</td>
-      <td>09:09</td>
+      <td>Filtros y Tablas dinámicas</td>
+      <td>15:01</td>
     </tr>
     <tr data-toggle="modal" data-target="#exampleModal13">
       <div class="modal fade" id="exampleModal13" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Guardas paginas en documentos individuales (separar correspondencias)</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Seguridad en Excel - Libros, Hojas y Celdas</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">                    
                     <div class="embed-responsive embed-responsive-21by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7Tj-BoKLPTY" id="iframeVideo"></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GmjJB8rOGsc" id="iframeVideo"></iframe>
                     </div>
             </div>
             <div class="modal-footer">
@@ -321,22 +321,22 @@
           </div>
         </div>
       <th scope="row">12</th>
-      <td>Guardas paginas en documentos individuales (separar correspondencias)</td>
-      <td>04:11</td>
+      <td>Seguridad en Excel - Libros, Hojas y Celdas</td>
+      <td>11:54</td>
     </tr>
     <tr data-toggle="modal" data-target="#exampleModal14">
       <div class="modal fade" id="exampleModal14" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Ajustar valores  predeterminados</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Funciones Sumar.Si y Promedio.Si (Condicionales)</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">                    
                     <div class="embed-responsive embed-responsive-21by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dMG3pNq1_C4" id="iframeVideo"></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Wi86aPrar1Y" id="iframeVideo"></iframe>
                     </div>
             </div>
             <div class="modal-footer">
@@ -345,10 +345,105 @@
           </div>
         </div>
       <th scope="row">13</th>
-      <td>Ajustar valores  predeterminados</td>
-      <td>04:17</td>
+      <td>Funciones Sumar.Si y Promedio.Si (Condicionales)</td>
+      <td>07:03</td>
     </tr>
-
+    <tr data-toggle="modal" data-target="#exampleModal15">
+      <div class="modal fade" id="exampleModal15" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Consolidar datos o unir diferentes libros y hojas en Excel</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">                    
+                    <div class="embed-responsive embed-responsive-21by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UPx7DB_F1lo" id="iframeVideo"></iframe>
+                    </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      <th scope="row">14</th>
+      <td>Consolidar datos o unir diferentes libros y hojas en Excel</td>
+      <td>10:27</td>
+    </tr>
+    <tr data-toggle="modal" data-target="#exampleModal16">
+      <div class="modal fade" id="exampleModal16" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Crear Tablas Automáticamente en Excel</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">                    
+                    <div class="embed-responsive embed-responsive-21by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AnOzUdlmQa0" id="iframeVideo"></iframe>
+                    </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      <th scope="row">15</th>
+      <td>Crear Tablas Automáticamente en Excel</td>
+      <td>06:01</td>
+    </tr>
+    <tr data-toggle="modal" data-target="#exampleModal17">
+      <div class="modal fade" id="exampleModal17" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Filtro Avanzado con Muchos Criterios</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">                    
+                    <div class="embed-responsive embed-responsive-21by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/djY65FogQ4U" id="iframeVideo"></iframe>
+                    </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      <th scope="row">16</th>
+      <td>Filtro Avanzado con Muchos Criterios</td>
+      <td>05:59</td>
+    </tr>
+    <tr data-toggle="modal" data-target="#exampleModal18">
+      <div class="modal fade" id="exampleModal18" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Sumar.Si y Contar.Si con Varios Criterios</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">                    
+                    <div class="embed-responsive embed-responsive-21by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/saIFcp7HVrA" id="iframeVideo"></iframe>
+                    </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      <th scope="row">17</th>
+      <td>Sumar.Si y Contar.Si con Varios Criterios</td>
+      <td>06:14</td>
+    </tr>
   </tbody>
 </table>
 <br>
@@ -384,7 +479,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script type="text/javascript">
       //Url del video a reproducir
-      var videoSrc='https://www.youtube.com/embed/pbvwCTld8BA';
+      var videoSrc='https://www.youtube.com/embed/yKWFMgurUnU';
 
       //Al abrir la ventana modal, le agregué autoplay igual a 1, para que se reproduzca
       //automáticamente, en caso de que no se requiera la autoreproducción, se quita 

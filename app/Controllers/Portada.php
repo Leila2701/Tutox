@@ -27,6 +27,18 @@ class Portada extends BaseController
   {
     return view('header').view('CursoWord').view('footer');
   }
+  public function CursoExcel()
+  {
+    return view('header').view('CursoExcel').view('footer');
+  }
+  public function CursoPowerPoint()
+  {
+    return view('header').view('CursoPowerPoint').view('footer');
+  }
+  public function CursoInDesign()
+  {
+    return view('header').view('CursoInDesign').view('footer');
+  }
     public function doList()
   {
       $respuesta=array(); 
