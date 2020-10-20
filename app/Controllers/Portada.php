@@ -39,6 +39,14 @@ class Portada extends BaseController
   {
     return view('header').view('CursoInDesign').view('footer');
   }
+  public function CursoFacebook()
+  {
+    return view('header').view('CursoFacebook').view('footer');
+  }
+  public function CursoProgramacion()
+  {
+    return view('header').view('CursoProgramacion').view('footer');
+  }
     public function doList()
   {
       $respuesta=array(); 

@@ -68,7 +68,7 @@
                       <div class="youtube-player" data-id="AuMKOE5kODI"></div>
                     </div>
                     <div class="card-footer">
-                      <a class="btn btn-info btn-block" target="_blank" href="https://www.youtube.com/playlist?list=PLO4t0hJwoloh98SGV9r0oh5W9ICRdkAbU">Ir al curso</a>
+                      <a class="btn btn-info btn-block" href="<?php echo base_url();?>/Portada/CursoFacebook">Ir al curso</a>
                     </div>              
                   </div>
                 </div>
@@ -95,7 +95,7 @@
                       <div class="youtube-player" data-id="SNlDPxqjI2Y"></div>
                     </div>
                     <div class="card-footer">
-                      <a class="btn btn-info btn-block" target="_blank" href="https://www.youtube.com/playlist?list=PLIRq7nByT7aQLRzBkf66cjkZ62HefyIfK">Ir al curso</a>
+                      <a class="btn btn-info btn-block" href="<?php echo base_url();?>/Portada/CursoProgramacion">Ir al curso</a>
                     </div>
                   </div>
                 </div>
