@@ -29,7 +29,7 @@
                       
                     </div>
                     <div class="card-footer">
-                      <a class="btn btn-info btn-block"  href="<?php echo base_url();?>/Portada/CursoWord">Ir al curso</a>
+                      <a class="btn btn-info btn-block"  href="<?php echo base_url();?>/Word/index">Ir al curso</a>
                     </div>
                   </div>
                 </div>
