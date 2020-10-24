@@ -69,3 +69,29 @@ $("#btn_mostrar").click(function() {
 
 
 }
+
+function listarcomentario() {
+   $("#reporte").html("");
+  $.ajax({
+    url: ruta+"/Word/doList",
+    type: 'post',
+    dataType: 'json',
+    data: {},
+    success: function(e){  
+      $("#paneltabla2").show();
+      $("#reporte").html(e.data);
+    }
+  })
+  .done(function() {
+    console.log("success");
+  })
+  .fail(function() {
+    console.log("error");
+  })
+  .always(function() {
+    console.log("complete");
+  });
+  
+}
+
+document.addEventLinstener('DOMContentLoaded',listarcomentario,false);

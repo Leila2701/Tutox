@@ -2,14 +2,12 @@
 <script>
   ruta='<?= base_url()?>';  
   $(document).ready(function() {
-    doaction();
+    listarcomentario();
   });
 </script>
 
-<br>
-
 <div>
-<h3 class="text-center">WORD</h3>
+  <img src="<?php echo base_url();?>/resources/img/word-titulo.jpg" class="d-block w-100" alt="..." style="width: 100%">
 </div>
 <table class="table table-hover table-dark">
   <thead>
@@ -375,6 +373,50 @@
    <button class="btn btn-primary" id="btn_mostrar" >Agregar</button>
    <button class="btn btn-primary" type="submit">Cancelar</button>
 
+   <hr size="3">
+
+   <?= form_open_multipart('#', array('id' => 'frmreg','name' => 'frmreg')) ?>
+                               
+
+                       <div class="form-group col-md-6">
+                                <label for="idPer">IdPersona:</label>
+                                <input type="text" class="form-control" id="idPer"
+                                name="idPer" title="Solo digitos" placeholder="Ingresar DNI">
+                        </div>
+                       <div class="form-group col-md-6">
+                                <label for="nombre">Nombre :</label>
+                                <input type="text" class="form-control" id="nombre"
+                                 name="nombre" title="Solo alfanumericos" placeholder="Ingresar Nombre" >
+                        </div>          
+                      <div class="form-group">
+                        <label for="comentario">Comentario:</label>
+                        <textarea name="comentario" id="comentario" class="form-control" 
+                  placeholder="Ingresar comentario" required
+                  rows="3"
+                        ></textarea>                      
+                      </div>
+                         
+                      
+                        
+                   
+                              <div class="form-group col-md-6">
+                                <label for="fecha">Fecha :</label>
+                                <input type="date" class="form-control" id="fecha"
+                               name="fecha" title="Formato Fecha" placeholder="Ingresar Fecha" >
+                              </div>
+
+                    
+                      <div class="form-group">
+                        <label for="foto">* Foto:</label>
+                        <div class="custom-file">
+                       <input type="file" class="custom-file-input" id="foto" lang="es" name="foto" required>
+                        <label class="custom-file-label" for="foto">Seleccionar Archivo</label>
+                        </div>
+                      </div> 
+                     <button type="submit" class="btn btn-primary">Crear</button>                         
+                            <button type="button" id="cerrarreg" class="btn btn-default">Cerrar</button>
+                        <?= form_close(); ?>    
+<hr size="3">
    
 
 <br>

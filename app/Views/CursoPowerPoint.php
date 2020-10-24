@@ -1,7 +1,5 @@
-<br>
-
 <div>
-<h3 class="text-center">PowerPoint</h3>
+  <img src="<?php echo base_url();?>/resources/img/powerpoint-titulo.jpg" class="d-block w-100" alt="..." style="width: 100%">
 </div>
 <table class="table table-hover table-dark">
   <thead>

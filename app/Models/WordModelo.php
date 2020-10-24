@@ -18,19 +18,10 @@ class WordModelo extends Model
      public function registrar($data)
     {
     	$db = \Config\Database::connect();
-    	$sql = "CALL sp_registrar_vivienda(?,?,?,?,?,?,?,@s)";
+    	$sql = "CALL sp_registrar_comentario(?,?,?,?,?,@s)";
     	$db->query($sql,$data);
     	$res =$db->query('select @s as out_param');
     	$db->close();
     	return   $res->getRow()->out_param;    
-    }
-    public function comboestado()
-    {
-        $db = \Config\Database::connect();
-        $sql = "CALL  sp_listar_estado()";
-        $result=$db->query($sql);
-        $db->close();
-        return $result->getResultArray();   
-
     }
 }
