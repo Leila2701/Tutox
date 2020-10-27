@@ -13,7 +13,7 @@ class Portada extends BaseController
   }
   public function cursos()
   {
-    return view('header').view('Cursos').view('footer');
+    return view('header').view('curso').view('footer');
   }
   public function somos()
   {
@@ -47,7 +47,27 @@ class Portada extends BaseController
   {
     return view('header').view('CursoProgramacion').view('footer');
   }
-    public function doList()
+  public function CursoCorel()
+  {
+    return view('header').view('CursoCorel').view('footer');
+  }   
+  public function CursoSQL()
+  {
+    return view('header').view('CursoSQL').view('footer');
+  }    
+  public function CursoPHP()
+  {
+    return view('header').view('CursoPHP').view('footer');
+  } 
+  public function CursoPhotoshop()
+  {
+    return view('header').view('CursoPhotoshop').view('footer');
+  }
+  public function CursoIllustrator()
+  {
+    return view('header').view('CursoIllustrator').view('footer');
+  }              
+  public function doList()
   {
       $respuesta=array(); 
       $modelo = new Persona($db);  

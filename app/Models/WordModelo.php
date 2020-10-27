@@ -15,10 +15,10 @@ class WordModelo extends Model
 
 
     }
-     public function registrar($data)
+     public function mregistrar($data)
     {
     	$db = \Config\Database::connect();
-    	$sql = "CALL sp_registrar_comentario(?,?,?,?,?,@s)";
+    	$sql = "CALL sp_registrar_comentario(?,?,?,?,@s)";
     	$db->query($sql,$data);
     	$res =$db->query('select @s as out_param');
     	$db->close();

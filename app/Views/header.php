@@ -57,8 +57,14 @@
           <li class="nav-item">
             <a class="nav-link" href="<?php echo base_url();?>/Portada/cursos">Cursos</a>
           </li>
-          <li class="nav-item">
+          <!--<li class="nav-item">
             <a class="nav-link" href="<?php echo base_url();?>/Portada/foro">Foros</a>
+          </li>-->
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://hola1427.000webhostapp.com">Contactanos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank"href="https://tutox.000webhostapp.com">Examen</a>
           </li>
         </ul>
         <!-- AQUI CREO LOS LOGINS -->
@@ -103,6 +109,16 @@
                       <div class="modal-body" style="background-color: #AFAEAE;">
                         <div class="card panel1" style="width: 100%;height: 100%;">
                           <div class="card-body">
+                             <div class="alert alert-danger"  id="error" >
+                                  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                                      <span class="sr-only">Error:</span>
+                                <p id="mensaje_error"></p>
+                              </div>        
+                              <div class="alert alert-success"  id="succ" >
+                                  <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+                                      <span class="sr-only">Correcto:</span>
+                                <p id="mensaje_ok"></p>
+                              </div>        
                             <?php $validation = \Config\Services::validation(); ?>
                             <?= form_open('Portada/doSave', array('id' => 'frmreg','name' => 'frmreg')) ?>
                         <form>

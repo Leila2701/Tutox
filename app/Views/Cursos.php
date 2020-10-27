@@ -29,7 +29,7 @@
                       
                     </div>
                     <div class="card-footer">
-                      <a class="btn btn-info btn-block"  href="<?php echo base_url();?>/Word/index">Ir al curso</a>
+                      <a class="btn btn-info btn-block"  href="<?php echo base_url();?>/Portada/CursoWord">Ir al curso</a>
                     </div>
                   </div>
                 </div>
@@ -108,7 +108,7 @@
                       <div class="youtube-player" data-id="JKMEDTfUZ58"></div>
                     </div>
                     <div class="card-footer">
-                      <a class="btn btn-info btn-block" target="_blank" href="https://www.youtube.com/playlist?list=PLg9145ptuAig5eqBYvOuMdpTP2ORUNXbf">Ir al curso</a>
+                      <a class="btn btn-info btn-block" target="_blank" href="<?php echo base_url();?>/Portada/CursoBD">Ir al curso</a>
                     </div>              
                   </div>
                 </div>
@@ -121,7 +121,7 @@
                       <div class="youtube-player" data-id="bW-NYf606fM"></div>
                     </div>
                     <div class="card-footer">
-                      <a class="btn btn-info btn-block" target="_blank" href="https://www.youtube.com/playlist?list=PL6hPvfzEEMDaU4aiS389oXamdN8sip856">Ir al curso</a>
+                      <a class="btn btn-info btn-block" href="<?php echo base_url();?>/Portada/CursoSQL">Ir al curso</a>
                     </div>              
                   </div>
                 </div>
@@ -134,7 +134,7 @@
                       <div class="youtube-player" data-id="Q21XLsP2bsY"></div>
                     </div>
                     <div class="card-footer">
-                      <a class="btn btn-info btn-block" target="_blank" href="https://www.youtube.com/playlist?list=PLLniqWgyb4HHjgr9iFg03MDa2lvLkywRQ">Ir al curso</a>
+                      <a class="btn btn-info btn-block" href="<?php echo base_url();?>/Portada/CursoPHP">Ir al curso</a>
                     </div>              
                   </div>
                 </div>
@@ -160,7 +160,7 @@
                       <div class="youtube-player" data-id="4-VMuLs99Ss"></div>                  
                     </div>
                     <div class="card-footer">
-                      <a class="btn btn-info btn-block" target="_blank" href="https://www.youtube.com/playlist?list=PLLniqWgyb4HEG5xw-Vxf4k9S7mj8NI8zt">Ir al curso</a>
+                      <a class="btn btn-info btn-block" href="<?php echo base_url();?>/Portada/CursoPhotoshop">Ir al curso</a>
                     </div>
                   </div>
                 </div>
@@ -173,7 +173,7 @@
                       <div class="youtube-player" data-id="x2KT6A7XfR4"></div>
                     </div>
                     <div class="card-footer">
-                      <a class="btn btn-info btn-block" target="_blank" href="https://www.youtube.com/playlist?list=PLvcuHw395y0z53Uq6P5stWF69JbWqEbs8">Ir al curso</a>
+                      <a class="btn btn-info btn-block" href="<?php echo base_url();?>/Portada/CursoIllustrator">Ir al curso</a>
                     </div>              
                   </div>
                 </div>
@@ -199,7 +199,7 @@
                       <div class="youtube-player" data-id="6uHRKhSa6Cw"></div>
                     </div>
                     <div class="card-footer">
-                      <a class="btn btn-info btn-block" target="_blank" href="https://www.youtube.com/playlist?list=PLLniqWgyb4HEDUMowVLOveh5uJ0jiodru">Ir al curso</a>
+                      <a class="btn btn-info btn-block" href="<?php echo base_url();?>/Portada/CursoCorel">Ir al curso</a>
                     </div>              
                   </div>
                 </div>

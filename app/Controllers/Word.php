@@ -13,7 +13,7 @@ class Word extends BaseController
   }
   public function cursos()
   {
-    return view('header').view('Cursos').view('footer');
+    return view('header').view('curso').view('footer');
   }
   public function somos()
   {
@@ -71,77 +71,17 @@ class Word extends BaseController
 
       $input = $this->validate([
 
-            'nombre' => [
-            'rules'  => 'required|min_length[5]|max_length[50]',
+            
+            'comentario' => [
+            'rules'  => 'required',
             'errors' => [
-                'required' => 'Debe ingresar un Nombre.',
-                'min_length' => 'El Nombre o Debe ser menos de 5 carateres',
-             'max_length' => 'El Nombre no Debe ser mayor de 50 carateres'                   
+                'required' => 'No debe estar el Comentario vacio'
+                
+              ]
             ]
-             ]         
-            ,
-            'apellidos' => [
-            'rules'=>'required|min_length[5]|max_length[45]',
-            'errors' => [
-                'required' => 'Debe ingresar un Apellido.',
-                'min_length' => 'El Apellido No Debe ser menos de 5 carateres',
-             'max_length' => 'El Apellido no Debe ser mayor de 45  carateres'                   
-            ]
-             ]         
-            ,
-            'correo' => [
-            'rules'=>'required|min_length[5]|max_length[45]|valid_email',
-            'errors' => [
-                'required' => 'Debe ingresar un Correo Electronico.',
-                'min_length' => 'El Correo Electronico No Debe ser menos de 5 carateres',
-             'max_length' => 'El Correo Electronico No Debe ser mayor de 45  carateres',
-             'valid_email'=>'Debe ingresar un correo electronico'
-            ]
-             ]         
-            ,
-            'dir' => [
-            'rules'=>'required|min_length[5]|max_length[45]',
-            'errors' => [
-                'required' => 'Debe ingresar un Direccion.',
-                'min_length' => 'La Direccion No Debe ser menos de 5 carateres',
-             'max_length' => 'La Direccion No Debe ser mayor de 45  carateres'                   
-            ]
-             ]         
-            ,
-            'tel' => [
-            'rules'=>'required|exact_length[9]',
-             'errors' => [
-                'required' => 'Debe ingresar un telefono.',
-                'exact_length' => 'Debe ser de 9 digitos'
-            ]
-             ]           
-            ,
-
-            'fecha' => [
-            'rules'=>'required',
-               'errors' => [
-                'required' => 'Debe ingresar un Fecha Nacimiento.'
-                ]
-             ]         
-            ,
-
-            'dni' => [
-            'rules'  => 'required|exact_length[8]',
-            'errors' => [
-                'required' => 'Debe ingresar un DNI.',
-                'exact_length' => 'Debe ser de 8 digitos'
-            ]
-             ]           
-            ,
-            'sexo' => [
-            'rules'=>'required|numeric',
-               'errors' => [
-                'required' => 'Debe una seleccionar un Sexo.',
-                'numeric' => 'Debe una seleccionar un Sexo'
-            ]
-             ]           
-            ,
-
+                 
+          
+            
         ]);
 
        if (!$input) {
@@ -152,16 +92,13 @@ class Word extends BaseController
             
         } else {
            $request =  \Config\Services::request();
-            $dni= $request->getPostGet('dni') ;  
-            $nombre= $request->getPostGet('nombre') ;
-              $apel= $request->getPostGet('apellidos') ;
-              $corr= $request->getPostGet('correo') ;
-              $fec= $request->getPostGet('fecha') ;
-              $sexo= $request->getPostGet('sexo') ;
-              $dir= $request->getPostGet('dir') ;
-              $tel= $request->getPostGet('tel') ;
-              $data = array($dni,$nombre,$apel,$corr,$fec,$sexo,$dir,$tel);      
-               $modelo = new WordModelo($db);  
+            $idPer= $request->getPostGet('idPer') ;  
+            $nombre= $request->getPostGet('nombre2') ;
+            $comentario= $request->getPostGet('comentario') ;
+            $fecha= $request->getPostGet('fecha');
+          
+            $data = array($idPer,$nombre,$comentario,$fecha);      
+            $modelo = new WordModelo($db);  
                if($modelo->mregistrar($data)){
                   $respuesta['ok'] = "Operacion realizada";
               }else{
@@ -170,10 +107,7 @@ class Word extends BaseController
 
             
         }
-
-
-
-        
+    
 
     header('Content-Type: application/x-json; charset=utf-8');
         echo(json_encode($respuesta));

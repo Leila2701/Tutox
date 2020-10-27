@@ -2,6 +2,12 @@
 <script>
   ruta='<?= base_url()?>';  
   $(document).ready(function() {
+    doaction();
+  });
+</script>
+<script>
+  ruta='<?= base_url()?>';  
+  $(document).ready(function() {
     listarcomentario();
   });
 </script>
@@ -358,65 +364,53 @@
   </tbody>
 </table>
 <br>
-<h2>1 comentario</h2>
+<h2>Comentarios</h2>
 <hr size="3">
-  <div id="reporte" >   
+  <div id="reporte" class="scroll" style="
+  height:200px;
+     overflow-y: scroll;">   
                  
   </div>
 <hr size="3">
 
+    <div class="card-body">
 
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Ingresar Comentario</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribir su comentario"></textarea>
-  </div>
-   <button class="btn btn-primary" id="btn_mostrar" >Agregar</button>
-   <button class="btn btn-primary" type="submit">Cancelar</button>
+                     
+                   <?php $validation = \Config\Services::validation(); ?>
 
-   <hr size="3">
-
-   <?= form_open_multipart('#', array('id' => 'frmreg','name' => 'frmreg')) ?>
+                 <?= form_open('#', array('id' => 'frmreg2','name' => 'frmreg2')) ?>
                                
-
-                       <div class="form-group col-md-6">
-                                <label for="idPer">IdPersona:</label>
-                                <input type="text" class="form-control" id="idPer"
-                                name="idPer" title="Solo digitos" placeholder="Ingresar DNI">
-                        </div>
-                       <div class="form-group col-md-6">
-                                <label for="nombre">Nombre :</label>
-                                <input type="text" class="form-control" id="nombre"
-                                 name="nombre" title="Solo alfanumericos" placeholder="Ingresar Nombre" >
-                        </div>          
-                      <div class="form-group">
-                        <label for="comentario">Comentario:</label>
-                        <textarea name="comentario" id="comentario" class="form-control" 
-                  placeholder="Ingresar comentario" required
-                  rows="3"
-                        ></textarea>                      
-                      </div>
-                         
-                      
-                        
-                   
-                              <div class="form-group col-md-6">
-                                <label for="fecha">Fecha :</label>
-                                <input type="date" class="form-control" id="fecha"
-                               name="fecha" title="Formato Fecha" placeholder="Ingresar Fecha" >
-                              </div>
-
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <!--<label for="idPer">IdPersona :</label>-->
+                      <input type="hidden" class="form-control" id="idPer" value="5" 
+                      name="idPer" title="Solo digitos" placeholder="Ingresar IdPersona">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <!--<label for="nombre">Nombre :</label>-->
+                      <input type="hidden" class="form-control" id="nombre2" value="Angel" 
+                      name="nombre2" title="Solo alfanumericos" placeholder="Ingresar Nombre" >
+                    </div>
+                  </div>       
+                  <div class="form-group">
+                    <label for="comentario">Comentario:</label>
+                    <textarea name="comentario" id="comentario" class="form-control" 
+                    placeholder="Ingresar comentario" required
+                    rows="3"
+                    ></textarea>                      
+                  </div>
+                                   
                     
-                      <div class="form-group">
-                        <label for="foto">* Foto:</label>
-                        <div class="custom-file">
-                       <input type="file" class="custom-file-input" id="foto" lang="es" name="foto" required>
-                        <label class="custom-file-label" for="foto">Seleccionar Archivo</label>
-                        </div>
-                      </div> 
-                     <button type="submit" class="btn btn-primary">Crear</button>                         
+                    <div>
+                     <button type="submit" id="btn_mostrar" class="btn btn-primary">Agregar</button>                         
                             <button type="button" id="cerrarreg" class="btn btn-default">Cerrar</button>
-                        <?= form_close(); ?>    
-<hr size="3">
+                       <?= form_close(); ?>      
+                                    
+                    </div>
+                      
+                  </div>
+  
+  <hr size="3">
    
 
 <br>
