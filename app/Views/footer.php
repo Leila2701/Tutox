@@ -18,11 +18,7 @@
             </div>
           <div class="footer-text2">
             <p>&copy;UCV Tutox | Todos los derechos reservados.</p>
-          </div>
-          </div>
-        </div>
-
-        <div class="social" style="width: 20px;
+            <div class="social" style="width: 20px;
                               text-align: center;
                               font-size: 24px;
                               left: -40px; 
@@ -45,6 +41,11 @@
     
       </ul>
     </div>
+          </div>
+          </div>
+        </div>
+
+        
 
       </footer>
 
