@@ -7,7 +7,7 @@
             <div class="container">
             <div class="carousel-caption d-none d-md-block text-left">
               <h1 class="cword">Word</h1>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Inscribirse</a></p>
+              <p> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Incribirse</button></p>
             </div>
           </div>
           </div>
@@ -16,7 +16,7 @@
             <div class="container">
             <div class="carousel-caption d-none d-md-block text-left">
               <h1 class="cexcel">Excel</h1>
-              <p><a class="btn btn-lg btn-success" href="#" role="button">Inscribirse</a></p>
+              <p> <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Incribirse</button></p>
             </div>
           </div>
           </div>
@@ -25,7 +25,7 @@
             <div class="container">
             <div class="carousel-caption d-none d-md-block text-left">
               <h1 class="cpower">PowerPoint</h1>
-              <p><a class="btn btn-lg btn-warning" href="#" role="button">Inscribirse</a></p>
+              <p> <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Incribirse</button></p>
             </div>
           </div>
           </div>
@@ -34,7 +34,7 @@
             <div class="container">
             <div class="carousel-caption d-none d-md-block text-left">
               <h1 class="cword">Facebook para negocios</h1>
-              <p><a class="btn btn-lg btn-warning" href="#" role="button">Inscribirse</a></p>
+              <p> <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Incribirse</button></p>
             </div>
           </div>
           </div>
@@ -67,7 +67,7 @@
                     <h5 class="card-title text-center" style="color: #CD1076; font-weight: bold;">Excel-Tablas Dinámicas</h5>
                     <img src="<?php echo base_url();?>/resources/img/tabladinamica.jpg" class="card-img-top"style="width:100%;">
                     <p class="card-text text-center">Permite combinar, comparar y analizar grandes volúmenes de datos.</p>
-                    <a href="#" class="btn btn-primary btn-block">INGRESAR</a>
+                    <a href="<?php echo base_url();?>/Portada/cursos" class="btn btn-primary btn-block">INGRESAR</a>
                   </div>
                 </div>
               </div>
@@ -77,7 +77,7 @@
                     <h5 class="card-title text-center" style="color: #CD1076; font-weight: bold;">PowerPoint-Organigramas</h5>
                     <img src="<?php echo base_url();?>/resources/img/organigrama.jpg" class="card-img-top"style="width:100%;">
                     <p class="card-text text-center">Representación gráfica de la estructura de una empresa u organización.</p>
-                    <a href="#" class="btn btn-primary btn-block">INGRESAR</a>
+                    <a href="<?php echo base_url();?>/Portada/cursos" class="btn btn-primary btn-block">INGRESAR</a>
                   </div>
                 </div>
               </div>
@@ -93,7 +93,7 @@
                     <h5 class="card-title text-center" style="color: #CD1076; font-weight: bold;">Ofimática</h5>
                     <img src="<?php echo base_url();?>/resources/img/ofimastica.jpg" class="card-img-top"style="width:100%;">
                     <p class="card-text text-justify">Conocimiento en el manejo del computador y de las principales herramientas de software de ofimática que se utiliza en las empresas.</p>
-                    <a href="#" class="btn btn-primary btn-block">INGRESAR</a>
+                    <a href="<?php echo base_url();?>/Portada/cursos" class="btn btn-primary btn-block">INGRESAR</a>
                   </div>
                 </div>
                 
@@ -104,7 +104,7 @@
                     <h5 class="card-title text-center" style="color: #CD1076; font-weight: bold;">Diseño Gráfico</h5>
                     <img src="<?php echo base_url();?>/resources/img/diseño.jpg" class="card-img-top"style="width:100%;">
                     <p class="card-text text-justify">Al comunicar de manera visual una idea, el arte, los colores, el motivo y por supuesto conocer el público al que va dirigido.</p>
-                    <a href="#" class="btn btn-primary btn-block">INGRESAR</a>
+                    <a href="<?php echo base_url();?>/Portada/cursos" class="btn btn-primary btn-block">INGRESAR</a>
                   </div>
                 </div>
               </div>
@@ -120,7 +120,7 @@
                     <h5 class="card-title text-center" style="color: #CD1076; font-weight: bold;">Fundamentos de Programación</h5>
                     <img src="<?php echo base_url();?>/resources/img/fundamento.jpg" class="card-img-top"style="width:100%;">
                     <p class="card-text text-justify">Permite crear programas que exhiban un comportamiento deseado, de un algoritmo en un determinado lenguaje para realizar un programa.</p>
-                    <a href="#" class="btn btn-primary btn-block">INGRESAR</a>
+                    <a href="<?php echo base_url();?>/Portada/cursos" class="btn btn-primary btn-block">INGRESAR</a>
                   </div>
                 </div>
               </div>
@@ -130,7 +130,7 @@
                     <h5 class="card-title text-center" style="color: #CD1076; font-weight: bold;">Diseño de Base de Datos</h5>
                     <img src="<?php echo base_url();?>/resources/img/SQL.jpg" class="card-img-top"style="width:100%;">
                     <p class="card-text text-justify">Permite obtener una implementación de una base de datos a partir de los requisitos iniciales de los usuarios del sistema de información.</p>
-                    <a href="#" class="btn btn-primary btn-block">INGRESAR</a>
+                    <a href="<?php echo base_url();?>/Portada/cursos" class="btn btn-primary btn-block">INGRESAR</a>
                   </div>
                 </div>
               </div>

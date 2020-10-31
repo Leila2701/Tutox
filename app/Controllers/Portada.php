@@ -1,6 +1,6 @@
 <?php namespace App\Controllers;
 use CodeIgniter\Controller;
-use App\Models\Persona;
+use App\Models\PersonaModelo;
 class Portada extends BaseController
 {
   public function __construct() {
@@ -62,15 +62,11 @@ class Portada extends BaseController
   public function CursoPhotoshop()
   {
     return view('header').view('CursoPhotoshop').view('footer');
-  }
-  public function CursoIllustrator()
-  {
-    return view('header').view('CursoIllustrator').view('footer');
-  }              
+  }       
   public function doList()
   {
       $respuesta=array(); 
-      $modelo = new Persona($db);  
+      $modelo = new PersonaModelo($db);  
       $respuesta['data']=$modelo->mlistar();
       header('Content-Type: application/x-json; charset=utf-8');
         echo(json_encode($respuesta));
@@ -122,7 +118,7 @@ class Portada extends BaseController
              ]         
             ,
             'tel' => [
-            'rules'=>'required|exact_length[9]',
+            'rules'=>'required|exact_length[9]|is_natural',
              'errors' => [
                 'required' => 'Debe ingresar un telefono.',
                 'exact_length' => 'Debe ser de 9 digitos'
@@ -139,7 +135,7 @@ class Portada extends BaseController
             ,
 
             'dni' => [
-            'rules'  => 'required|exact_length[8]',
+            'rules'  => 'required|exact_length[8]|is_natural',
             'errors' => [
                 'required' => 'Debe ingresar un DNI.',
                 'exact_length' => 'Debe ser de 8 digitos'
@@ -174,8 +170,9 @@ class Portada extends BaseController
               $dir= $request->getPostGet('dir') ;
               $tel= $request->getPostGet('tel') ;
               $data = array($dni,$nombre,$apel,$corr,$fec,$sexo,$dir,$tel);      
-               $modelo = new Persona($db);  
+               $modelo = new PersonaModelo($db);  
                if($modelo->mregistrar($data)){
+                 $respuesta['error'] = "";
                   $respuesta['ok'] = "Operacion realizada";
               }else{
                   $respuesta['error'] = "Problemas al realizar operacion!!";
@@ -196,3 +193,4 @@ class Portada extends BaseController
   //--------------------------------------------------------------------
 
 }
+

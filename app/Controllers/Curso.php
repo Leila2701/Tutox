@@ -50,7 +50,7 @@ public function doList(){
      foreach ($lista as $row) {
 
         $cadena.= '<div class="col-md-3">';
-                  $cadena.= '<div class="card" style="background-color: #D1DADA;" >';
+                  $cadena.= '<div class="card" style="background-color: #D1DADA; margin: 5px;" >';
                     $cadena.= '<div class="card-header">';
                      $cadena.=  '<h5 class="card-title" style="font-size: 16px;text-align: center;">'.$row['v2'] .'</h5>';
                     $cadena.= '</div>';
@@ -67,6 +67,57 @@ public function doList(){
      header('Content-Type: application/x-json; charset=utf-8');
         echo(json_encode($respuesta));
 }
+public function doList2(){
+    $cadena="";
+      $respuesta=array();         
+     $modelo = new CursoModelo($db);   
+     $lista=$modelo->listar2();
+     foreach ($lista as $row) {
+
+        $cadena.= '<div class="col-md-3">';
+                  $cadena.= '<div class="card" style="background-color: #D1DADA; margin: 5px;" >';
+                    $cadena.= '<div class="card-header">';
+                     $cadena.=  '<h5 class="card-title" style="font-size: 16px;text-align: center;">'.$row['v2'] .'</h5>';
+                    $cadena.= '</div>';
+                    $cadena.= '<div class="card-body">';
+                      $cadena.= '<img class="card-img-top" src="'.base_url().'/resources/img/'.$row['v3'].'">';                  
+                    $cadena.= '</div>';
+                    $cadena.= '<div class="card-footer">';
+                      $cadena.= '<a class="btn btn-info btn-block"  href="'.base_url().'/Portada/'.$row['v4'].'">Ir al curso</a>';
+                    $cadena.= '</div>';
+                  $cadena.= '</div>';
+                $cadena.= '</div>';
+     }
+      $respuesta['data']= $cadena;
+     header('Content-Type: application/x-json; charset=utf-8');
+        echo(json_encode($respuesta));
+}
+public function doList3(){
+    $cadena="";
+      $respuesta=array();         
+     $modelo = new CursoModelo($db);   
+     $lista=$modelo->listar3();
+     foreach ($lista as $row) {
+
+        $cadena.= '<div class="col-md-3">';
+                  $cadena.= '<div class="card" style="background-color: #D1DADA; margin: 5px;" >';
+                    $cadena.= '<div class="card-header">';
+                     $cadena.=  '<h5 class="card-title" style="font-size: 16px;text-align: center;">'.$row['v2'] .'</h5>';
+                    $cadena.= '</div>';
+                    $cadena.= '<div class="card-body">';
+                      $cadena.= '<img class="card-img-top" src="'.base_url().'/resources/img/'.$row['v3'].'">';                  
+                    $cadena.= '</div>';
+                    $cadena.= '<div class="card-footer">';
+                      $cadena.= '<a class="btn btn-info btn-block"  href="'.base_url().'/Portada/'.$row['v4'].'">Ir al curso</a>';
+                    $cadena.= '</div>';
+                  $cadena.= '</div>';
+                $cadena.= '</div>';
+     }
+      $respuesta['data']= $cadena;
+     header('Content-Type: application/x-json; charset=utf-8');
+        echo(json_encode($respuesta));
+}
+
 
 	//--------------------------------------------------------------------
 

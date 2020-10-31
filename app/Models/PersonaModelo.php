@@ -2,7 +2,7 @@
 
 use CodeIgniter\Model;
 
-class Persona extends Model
+class PersonaModelo extends Model
 {
 public function mlistar(){
 		$db = \Config\Database::connect();

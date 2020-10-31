@@ -366,9 +366,7 @@
 <br>
 <h2>Comentarios</h2>
 <hr size="3">
-  <div id="reporte" class="scroll" style="
-  height:200px;
-     overflow-y: scroll;">   
+  <div id="reporte" class="scroll" style=" height:200px; overflow-y: scroll;">   
                  
   </div>
 <hr size="3">

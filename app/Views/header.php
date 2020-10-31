@@ -37,9 +37,16 @@
 
     
   </head>
+        <script src ="<?=base_url()?>/resources/js/jsPersona.js"> </script>
+        
   <body style="background-color: #D3D3D3;">
     <header>
-
+      <script> 
+  ruta='<?= base_url ()?>';
+       $(document).ready(function(){doaction();
+                  });
+      </script>
+        
     <nav class="navbar navbar-expand-md navbar-dark " style="background-color:#696969;">
       <img src="<?php echo base_url();?>/resources/img/t.ico" alt="">
       <a class="navbar-brand" href="#">Tutox</a>
@@ -107,6 +114,7 @@
                         </button>
                       </div>
                       <div class="modal-body" style="background-color: #AFAEAE;">
+
                         <div class="card panel1" style="width: 100%;height: 100%;">
                           <div class="card-body">
                              <div class="alert alert-danger"  id="error" >
@@ -120,8 +128,9 @@
                                 <p id="mensaje_ok"></p>
                               </div>        
                             <?php $validation = \Config\Services::validation(); ?>
-                            <?= form_open('Portada/doSave', array('id' => 'frmreg','name' => 'frmreg')) ?>
-                        <form>
+
+                            <?= form_open('#', array('id' => 'frmreg','name' => 'frmreg')) ?>
+                      
                             <div class="form-row">
                               <div class="form-group col-md-6">
                                 <label for="nombre">Nombre :</label>
@@ -176,7 +185,7 @@
                             <div class="form-group">
                             <button type="submit" class="btn btn-dark form-control">REGISTRAR</button>
                             </div>
-                          </form>
+                            <?= form_close(); ?>       
                           </div>
                         </div>
                       </div>
