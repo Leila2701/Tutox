@@ -1,0 +1,250 @@
+body {
+	font-family: 'Varela Round', sans-serif;
+	/*background-image: linear-gradient(to bottom, #ffffff, #fbfdff, #f5fbff, #edfafd, #e7f9f8);*/
+	/*background-image: radial-gradient(circle, #ffffff, #f7fbff, #e9f9ff, #d9f8fe, #ccf6f2);*/
+	background-image: radial-gradient(circle, #ffffff, #f8f8fa, #eff2f5, #e5edee, #dde7e6);
+
+}
+nav img{
+	width:30px;
+	height: 30px;
+	margin: 0;
+
+}
+
+/*ESTE CAMPO ES IMPORTANTE PARA EL ICONODE REDES SOCIALES*/
+.navbar .social-btn .btn, .navbar .social-btn .btn:hover {
+	color: #fff;
+	margin: 0;
+	padding: 0 !important;
+	font-size: 13px;
+	border: none;
+	transition: all 0.4s;
+	text-align: center;
+	line-height: 34px;
+	width: 47%;
+	text-decoration: none;
+}
+/*PONE COLOR A LOS BOTONES DE REDES SOCIALES*/
+.navbar .social-btn .facebook-btn {
+	background: #507cc0;
+}
+.navbar .social-btn .facebook-btn:hover {
+	background: #4676bd;
+}
+.navbar .social-btn .twitter-btn {
+	background: #64ccf1;
+}
+.navbar .social-btn .twitter-btn:hover {
+	background: #4ec7ef;
+}
+
+/*PONE EL LINEA SEPARADOR OR*/.or-seperator {
+	margin-top: 32px;
+	text-align: center;
+	border-top: 1px solid #e0e0e0;
+}
+/*ORDENA EL SEPARADOR OR CON SU LINEA*/.or-seperator b {
+	color: #666;
+	padding: 0 8px;
+	width: 30px;
+	height: 30px;
+	font-size: 13px;
+	text-align: center;
+	line-height: 26px;
+	background: #fff;
+	display: inline-block;
+	border: 1px solid #e0e0e0;
+	border-radius: 50%;
+	position: relative;
+	top: -15px;
+	z-index: 1;
+}
+/*.panel1{
+	background-color: #C0C0C0;
+}*/
+.aaa{
+	font-family: arial;
+	font-weight: bold;
+	color:#8B475D;
+}
+label{
+	color:#0B6470;
+	font-weight: bold;
+}
+.ntit{
+	text-align: center;
+	color:#8B2252;
+	font-weight: bold;
+}
+.cword{
+	color:#00008B;
+	font-weight: bold;
+}
+.cexcel{
+	color:#006400;
+	font-weight: bold;
+}
+.cpower{
+	color:#FF4500;
+	font-weight: bold;
+}
+
+
+
+/*.headerFixedBar{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: white;
+	position:fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: auto;
+}
+
+.logoCabeceraTexto{
+	
+	color: #663399;
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+
+.logoCabeceraTexto:hover{
+	color: #562e72;
+	text-decoration: none;
+	font-size: 1.3em;
+	font-weight: 500;
+}
+
+.logoCabecera{
+	width: 25px;
+	height: 25px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.colocarIzquierda{
+float: left;
+display: inline-block;
+}
+.colocarDerecha{
+float: right;
+display: inline-block;
+}
+.vMedio{
+	position: relative;
+	vertical-align: middle;
+}
+
+.botonTema{
+	background-color: #562e72;
+	color: white;
+	border-color: black;
+	border-width: thin;
+	font-weight: 500;
+}
+
+.botonTema:hover{
+	background-color: white;
+	color: #663399;
+	border-width: thin;
+	border-color: #562e72;
+}
+.foroBloque{
+	background-color: #f2f2f2;
+	margin-top: 75px;
+	margin-bottom: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.foroMargen{
+	margin-bottom: 10px;	
+}
+.foroRelleno{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.paginationArrow{ 
+	color: #9e9e9e;
+	padding-right: 5px;
+	padding-left: 5px;
+
+}
+.barraPaginacion{
+	padding:15px;
+}
+.categoriaModulo{
+	background-color: white;
+	color: black;
+	overflow: none;
+	margin-top: 50px;
+}
+.foroModulo{
+	background-color: white;
+	color: black;
+	overflow:none;
+}
+.foroMargen{
+	margin-bottom: 10px;
+}
+.foroRelleno{
+	padding-top: 5px;
+	padding-bottom: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.foroTabla{
+	width: 100%;
+	height: auto;
+	border: 1px solid:#562e72;
+}
+.foroTabla th{
+	border: 5px 
+	color:#808080;
+}
+.foroTabla tr{
+	padding: 5px;
+	border: 1px solid:#f2f2f2;
+}
+.foroTabla td{
+	padding: 5px;
+}
+.columnaRelleno{
+	margin-top: 15px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+.h1{
+	font-size: 1.7em;
+	color: #663399;
+}
+.h2{
+	font-size: 1.5em;
+	color: #663399;
+}
+.h3{
+	font-size: 1.3m;
+	color: #663399;
+}
+.newDiscussionText{
+	widows: 100%;
+	height: auto;
+	background-color: white;
+	color: #562e72;
+	margin-top: 5px;
+}
+
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}*/
+
